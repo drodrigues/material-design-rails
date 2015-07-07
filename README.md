@@ -38,6 +38,17 @@ application.css:
  */
 ```
 
+## Icons
+
+You can load the 'Material Icons' from google.
+
+Just like this:
+
+```
+  <%= stylesheet_link_tag "//fonts.googleapis.com/icon?family=Material+Icons" %>
+```
+
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/material_design_rails/fork )
