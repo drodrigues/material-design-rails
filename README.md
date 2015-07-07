@@ -1,6 +1,6 @@
-# MaterialDesignRails
+# Google Material Design for Rails
 
-TODO: Write a gem description
+material_design_rails provides the [Google Material Design Lite](http://www.getmdl.io/) javascripts and stylesheets as a Rails engine for use with the asset pipeline.
 
 ## Installation
 
@@ -20,7 +20,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+Include the **Material Design Rails** into your js and css files.
+
+Just like this:
+
+application.js:
+
+```javascript
+//= require material_design_rails
+```
+application.css:
+
+```css
+/*
+ *= require material_design_rails
+ */
+```
 
 ## Contributing
 
